@@ -1,0 +1,549 @@
+    1  sudo config-rasbpi
+    2  sudo config-raspi
+    3  sudo config-raspy
+    4  sudo config-raspi
+    5  sudo config-rasppi
+    6  h
+    7  help
+    8  sudo config-raspi
+    9  sudo raspi-config
+   10  reboot
+   11  cd /
+   12  ls
+   13  cd home/
+   14  ls
+   15  cd pi/
+   16  ls
+   17  pwd
+   18  sudo raspi-config
+   19  cd /home/pi/
+   20  pwd
+   21  clear
+   22  sudo raspi-config
+   23  clear
+   24  off
+   25  shutdown 
+   26  pwd
+   27  cd /home/pi/
+   28  help
+   29  info
+   30  date
+   31  init 0
+   32  help
+   33  info
+   34  ls
+   35  clear
+   36  ping -h
+   37  nano
+   38  ls
+   39  nano apuntes\ comandos 
+   40  cat apuntes\ comandos 
+   41  nanno
+   42  nano apuntes\ comandos 
+   43  ls
+   44  rm apuntes comandos
+   45  rm apuntes/ comandos
+   46  ls
+   47  apuntes\comandos
+   48  apuntes\ comandos
+   49  ls
+   50  ls --color
+   51  apuntes comandos
+   52  type apuntes \comandos
+   53  clear
+   54  ls
+   55  rm "apuntes comandos"
+   56  ls
+   57  type apuntesComandos
+   58  tipe apuntesComandos 
+   59  cat apuntesComandos 
+   60  nano
+   61  nano apuntesComandos 
+   62  cd /etc
+   63  li --color
+   64  ls --color
+   65  cat hostname 
+   66  cd /
+   67  ls
+   68  cd home/pi/
+   69  ls
+   70  cd /lost+found/
+   71  ls
+   72  sudo cd /lost+found/
+   73  cd /lost+found
+   74  cd /etc
+   75  ls
+   76  cd /home/pi/
+   77  ls
+   78  clear
+   79  nano apuntesComandos 
+   80  cd etc
+   81  cd/etc
+   82  ls
+   83  cd
+   84  cd /etc
+   85  ls
+   86  cat services 
+   87  clear
+   88  cat services | grep ssh
+   89  nano /home/pi/apuntesComandos 
+   90  cat services grep | ZZ grep | tcp
+   91  cat services
+   92  cat services grep | zz
+   93  nano /home/pi/apuntesComandos 
+   94  cat services | grep zz
+   95  cat services | grep ZZ
+   96  cat services | grep PS1
+   97  cat profiles | grep PS1
+   98  cat profile | grep PS1
+   99  cat services 
+  100  nano /home/pi/apuntesComandos 
+  101  cat services | grep ssh
+  102  cat services | grep 22
+  103  cat services | grep 22 | grep tcp
+  104  nano /home/pi/apuntesComandos 
+  105  runlevel
+  106  ls
+  107  cat init.d
+  108  cat init
+  109  cd init.d
+  110  ls
+  111  cd /
+  112  pwd
+  113  date
+  114  pwd
+  115  ls
+  116  cd etc/
+  117  ls
+  118  caty rc.local
+  119  cat rc.local
+  120  cat rmt
+  121  cat localtime 
+  122  ls
+  123  init 0
+  124  cd /
+  125  find -name * py
+  126  find -name* py
+  127  find -name * py
+  128  sudo find -name * py
+  129  sudo find -name *. py
+  130  sudo find -name *.py
+  131  sudo su
+  132  nano /home/pi/apuntesComandos 
+  133  clear
+  134  sudo su
+  135  su
+  136  sudo su
+  137  su
+  138  sudo su
+  139  pwd
+  140  ls
+  141  cd usr
+  142  ls
+  143  cd ../
+  144  pwd
+  145  ls
+  146  groups
+  147  sudo su
+  148  groups
+  149  find adm
+  150  find groups
+  151  find -name groups
+  152  find -name groups >>/home/pi/listaGroups
+  153  find -name groups >> /home/pi/listaGroups
+  154  cd /home/pi/
+  155  ls
+  156  nano listaGroups 
+  157  cd /usr/bin/groups
+  158  cd /usr/bin
+  159  ls
+  160  cat groups 
+  161  ls
+  162  clear
+  163  python
+  164  python3
+  165  cd /
+  166  cd /home/pi/
+  167  ls
+  168  pythhon3
+  169  python3
+  170  clear
+  171  pip
+  172  pip3
+  173  pwwwwdd
+  174  pwd
+  175  ls
+  176  rm listadoDeArchivosPy 
+  177  ls
+  178  rm listaGroups 
+  179  ls
+  180  cat apuntesComandos 
+  181  nano apuntesComandos 
+  182  scpu
+  183  lscpu
+  184  history
+  185  vcgencmd measure_temp
+  186  nano apuntesComandos 
+  187  vcgencmd measure_temp
+  188  date
+  189  cat /proc/meminfo
+  190  nano apuntesComandos 
+  191  free
+  192  history
+  193  sudo su
+  194  cat /proc/meminfo
+  195  proc
+  196  cat /proc/version
+  197  nano apuntesComandos 
+  198  cat /etc/devian_version
+  199  cat /etc/debian_version
+  200  nano apuntesComandos 
+  201  cd /home/pi/
+  202  sudo dmesg >> listadoHardware.txt
+  203  ls
+  204  cat listadoHardware.txt 
+  205  nano listadoHardware.txt 
+  206  liusb
+  207  lsusb
+  208  nano a
+  209  nano apuntesComandos 
+  210  cat /proc/device-tree/model
+  211  pinout
+  212  init 0
+  213  ls man
+  214  man ls
+  215  man volt
+  216  volt=1
+  217  man vcgen
+  218  man vcgencmd
+  219  vcgencmd measure_volts core
+  220  clear
+  221  nano
+  222  find keyboard-setup.sh
+  223  pwd
+  224  ls
+  225  nano apuntesComandos
+  226  fdisk -l
+  227  sudo fdisk -l
+  228  fdisk -l
+  229  fdisk 
+  230  fdisk -L
+  231  fdisk -l -L
+  232  sudo fdisk -Lol
+  233  sudo fdisk -L -o -l
+  234  sudo fdisk -o
+  235  sudo fdisk --output
+  236  sudo fdisk -L -l
+  237  sudo fdisk -L -l >> infoParticiones.txt
+  238  cat infoParticiones.txt 
+  239  nano infoParticiones.txt 
+  240  sudo fdisk -l -L
+  241  sudo fdisk -l -o -L
+  242  cd pi
+  243  cd ~pi
+  244  pwd
+  245  nano apuntesComandosº
+  246  ls
+  247  nano apuntesComandos
+  248  ls
+  249  rm apuntesComandos.save
+  250  ls
+  251  sudo fdisk -l 
+  252  cd /dev/sda1
+  253  cd /dev
+  254  ls
+  255  sudo fdisk -l 
+  256  sudo cd/sda1
+  257  sudo fdisk -l 
+  258  cd /
+  259  ls
+  260  cd etc
+  261  ls
+  262  sudo fdisk -l 
+  263  cd /dev/sda
+  264  man mount
+  265  clear
+  266  cd ~pi
+  267  nano apuntesComandos 
+  268  ls
+  269  rm apuntesComandos
+  270  ls
+  271  cd /etc
+  272  ls --color
+  273  cd /
+  274  ls --color
+  275  cd dev
+  276  ls --color
+  277  file sda1
+  278  file snd
+  279  file log
+  280  file shm
+  281  nano /home/pi/apuntesComandos.txt 
+  282  mount
+  283  nano /home/pi/apuntesComandos.txt cd /home/pi/
+  284  cd /home/pi/
+  285  ls
+  286  mkdir usbJavi
+  287  ls -c
+  288  mount /dev/sda1 usbJavi/
+  289  sudo mount /dev/sad1 usbJavi/
+  290  cd usbJavi/
+  291  ls
+  292  sudo mount /dev/sda1 usbJavi/
+  293  ls
+  294  cd ../
+  295  ls
+  296  sudo mount /dev/sda1 usbJavi/
+  297  cd usbJavi/
+  298  ls
+  299  cd System\ Volume\ Information/
+  300  ls
+  301  cat WPSettings.dat 
+  302  ls
+  303  cat IndexerVolumeGuid 
+  304  ls
+  305  cat WPSettings.dat 
+  306  ls
+  307  cd ../
+  308  ls
+  309  ls usb
+  310  lsusb
+  311  cd ..
+  312  ls
+  313  cd usbJavi/
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd..
+  318  cd ..
+  319  ls
+  320  cd pi
+  321  ls
+  322  umount usbJavi
+  323  sudo umount usbJavi
+  324  ls
+  325  cd usbJavi/
+  326  ls
+  327  cd ..
+  328  ls
+  329  çnano apuntesComandos.txt 
+  330  nano apuntesComandos.txt 
+  331  mount
+  332  history
+  333  mount /dev/sda1 usbJavi/
+  334  sudo mount /dev/sda1 usbJavi/
+  335  cd usbJavi/
+  336  ls
+  337  mount
+  338  sudo umount usbJavi
+  339  cd ..
+  340  sudo umount usbJavi
+  341  pwd
+  342  mount
+  343  nano apuntesComandos.txt 
+  344  clear
+  345  sudo su
+  346  if config; ifconfig; 
+  347  ifconfig
+  348  ping 8.8.8.8
+  349  history
+  350  raspi-config
+  351  sudo raspi-config
+  352  raspi-config
+  353  sudo raspi-config
+  354  clear
+  355  sudo raspi-config
+  356  clear
+  357  sudo raspi-config
+  358  netstat -ano | grep ssh
+  359  netstat -ano | grep 22
+  360  ps aux |grep ssh
+  361  init 0
+  362  ls
+  363  cd /
+  364  ls
+  365  cd /etc
+  366  ls
+  367  cat host.conf
+  368  cat hostname
+  369  cat hosts
+  370  cat rc.local 
+  371  cat netconfig 
+  372  ls
+  373  cat dhcp.conf
+  374  cat dhcpcd.conf 
+  375  ls --color
+  376  nano dhcpcd.conf
+  377  man ip
+  378  nano dhcpcd.conf
+  379  clear
+  380  sudo su
+  381  nano dhcpcd.cping 8.8.8.8
+  382  ping 8.8.8.8
+  383  ping thejaxserver.synology.me
+  384  clear
+  385  ping 8.8.8.8
+  386  ping thejaxservr.synology.me
+  387  ping thejaxserver.synology.me
+  388  ping thejaxserver.synology.me:5000
+  389  ping thejaxserver.synology.me:5001
+  390  ping thejaxserver.synology.me::5001
+  391  ping thejaxserver.synology.me::5000
+  392  ping thejaxserver.synology.me
+  393  ping www.google.es
+  394  ping 1.1.1.1
+  395  clear
+  396  python -v
+  397  man python
+  398  python -V
+  399  man python
+  400  clear
+  401  init 0
+  402  clear
+  403  raspi-config
+  404  raspiconfig
+  405  sudo raspiconfig
+  406  sudo raspi-config
+  407  init 0
+  408  clear
+  409  pwd
+  410  echo "hola Mundo"
+  411  date
+  412  pytho3
+  413  python3
+  414  release
+  415  cat /etc/OS-release
+  416  cd /
+  417  cat /etc/os-release
+  418  clear
+  419  cat /etc/os-release
+  420  man get
+  421  man dev
+  422  man apt-get
+  423  sudo  nano /etc/apt/sources.list
+  424  clear
+  425  apt update
+  426  sudo su
+  427  dpkg -l wcalc
+  428  dpkg -L wcalc
+  429  info wcalc
+  430  man dpkg
+  431  man wcalc
+  432  clear
+  433  apt search zoom more
+  434  apt search xdotool
+  435  apt install xdotool
+  436  sudo su apt install xdotool
+  437  sudo su
+  438  close
+  439  exit
+  440  clear
+  441  dpkg-reconfigure console-setup
+  442  sudo su
+  443  clear
+  444  dpgk -L xdotool
+  445  sudo su
+  446  clear
+  447  ls --color
+  448  cd/
+  449  cd /
+  450  find -name *.pdf
+  451  sudo su
+  452  find -name *.pdf
+  453  sudo su
+  454  find -name *.pdf
+  455  sudo find -name *.pdf
+  456  apt search mlocate
+  457  sudo apt -i mlocate
+  458  apt install mlocate
+  459  sudo apt install mlocate
+  460  man mlocate
+  461  updatedb
+  462  sudo su
+  463  history
+  464  locate dhcp*.conf
+  465  locate dhcp*
+  466  locate dhcp
+  467  locate dhcp | more
+  468  cat dhcpcd.conf
+  469  locate dhcp
+  470  locate dhcp more
+  471  locate dhcp | more
+  472  locate dhcpcd.conf
+  473  cd /etc
+  474  locate dch
+  475  locate dchp
+  476  mlocate dchp
+  477  locate dhcpcd.conf
+  478  cat dchcpcd.conf
+  479  cat /etc/dchcpcd.conf
+  480  cat /etc/dhcpcd.conf
+  481  dpkg --get-selections | grep mlocate
+  482  apt install lynx
+  483  sudo su
+  484  history
+  485  sudo lynx
+  486  dpkg -l lynx
+  487  apt install git
+  488  sudo su
+  489  gpio
+  490  man gpio
+  491  gpio
+  492  man gpio
+  493  apt install gitsuso su
+  494  sudo su
+  495  init 0
+  496  sudo init 0
+  497  ls
+  498  cd wiringPi/
+  499  ls --color
+  500  cat README.TXT 
+  501  man dd
+  502  init 0
+  503  ls --color
+  504  init 0
+  505  ssh thejaxsessh thejaxserver.synology.me
+  506  ping 8.8.8.8
+  507  ssh  thejaxserver.synology.me
+  508  ssh  thejaxserver.synology.me:5000
+  509  man ssh
+  510  ssh  thejaxserver.synology.me -p 5000
+  511  man ssh
+  512  ssh  thejaxserver.synology.me -p 5000 -l admin
+  513  ssh -l admin -h thejaxserver.synology.me -p 5000 
+  514  clear
+  515  pwd
+  516  ls --color
+  517  cat infoParticiones.txt 
+  518  cat infoParticiones.txt | more
+  519  clear
+  520  man python
+  521  man python3
+  522  info python3
+  523  clear
+  524  cd ~/etc
+  525  cd /etc
+  526  cd ~pi
+  527  ls
+  528  cd /
+  529  cd ~usbJavi
+  530  cd ~pi
+  531  ls
+  532  cd usbJavi/
+  533* 
+  534  cd ~usbJavi/
+  535  cd ~usbJavi
+  536  cd /home/pi/usbJavi/
+  537  clear
+  538  cd ..
+  539  ls
+  540  clear
+  541  netstat -ano | greo 22
+  542  netstat -ano | grep 22
+  543  man scp
+  544  clear
+  545  man user
+  546  cls
+  547  clear
+  548  history
+  549  history >> /home/pi/historial.txt

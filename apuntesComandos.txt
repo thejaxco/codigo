@@ -1,0 +1,48 @@
+CTRL + c: Mato el proceso.
+CTRL + z: Duermo el proceso.
+CTRL + x: Salgo del proceso.
+
+
+ls: lista del fichero.
+nano: crear archivo
+cat: muestra el archivo sin abrirlo.
+	ejemplo con filtrado:
+		 "cat services | grep ssh" ==> Mostrara los servicios que contengan la palabra ssh. 
+		 "cat services | 22 | grep tcp" ==> Mostrara ls servicios filtrados por 22 del tipo tcp.
+
+cd : camino.
+ls --color: muestra con colores.
+dir: lo mismo que ls.
+clear: limpia pantalla.
+pwd: muestra la ruta dode nos encontramos.
+init.d: es el directorio donde colocaremos todos los escripts ejecutables.
+find -name *.py >> nombre del archivo que se ha de añadir.
+find -name *.py > nombre del archivo que se ha de crear.
+sudo su: entrar como usuario root.
+exit salir del super usuario root.
+sudo: hacer como su.
+groups: muestra los grupos a los que pertenecemos.
+lscpu: listame la cpu.
+vcgencmd measure_temp: muestra la temperatura de la raspberry.
+cat /proc/meminfo: muestra informacion de la ram.
+free: muestra la memoria libre.
+cat /proc/version: nos dice la verión del S.o.
+cat /etc/debian_version: muestra la version de debian.
+cat /etc/os-release: muestra la version de la distro del sistema operativo.
+lsusb: muestra lo que tenemos por usb
+dmesg: muestra todo el hadware que tenemos.
+cat /proc/device-tree/model: nos muestra los pinotus
+file + name: muestra el tipo de archivo
+subrrayar: CRTL + MAYUSCULAS + FLECHA
+COPIAR: alt + 6
+pegar: ctrl + u
+cortar: ctrl + k
+
+montar usb:
+primero debemos saber cual es la partición con el comando:
+	fdisk -l
+	al final nos muestra:
+		/dev/sda1
+	creamos una carpeta en el ususario con el nombre usbUserName.
+	montamos la unidad con: mount /dev/sda1 usbUserName.
+para desmontar subimos un directorio y desmontamos con: umount usbUserName.

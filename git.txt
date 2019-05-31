@@ -1,0 +1,42 @@
+.- Requisitos:
+		Necesitamos conexion a internet.	
+
+.- ¿Que és GIT?:
+		GIT es un control de versiones, es decir a la hora de escribir código, git, nos ayuda a mantener actualizado
+		nuestro codigo, sin necesidad de guardar diferentes archivos.
+
+.-Instalación de git:
+								apt install git
+.-Primeros Pasos:
+	- Creamos una carpeta de proyecto llamada "projecte1":	mkdir proyecte1
+	- Nos metemos dentro de la carpeta con:			cd projecte1
+	- Creamos un archivo vacio con:				touch sensordht11.pY
+	- Editamos con nano y ponemos la version:		nano sensordht11.py
+	- Creamos una foto del archivo con:			git init
+	- para ver la carpeta guardada(working directory):	ls -la
+	- Lo pasamos a la STAGINAREA
+	  con la siguiente secuencia:
+		
+	1- Hemos de identificarnos en git:			git config --global user.name "thejaxco"
+								git config --global user.email "thejaxco@gmail.com"
+
+	2- Añadimos el archivo al git con:			git add sensordht11.py
+	3- añadimos los comentarios de git con:			git commit 
+	   "Aqui ponemos el texto que define la version"
+	   Podemos ver el log con:                              git log
+			
+	4- Añadimos una rama nueva con:				git branch version2
+	5- Saltamos a la rama version2 con:			git checout version2
+ 
+- Copiar versiones entre ramas:
+			estando en la 3v queremos,
+			que nos salga la version 2.
+			para ello hacemos el comando:		git checkout version2 -- sensordht11.py
+
+
+- Log maqueado:							git log --oneline --decorate --graph --all
+
+- Añadir Remoto:						git remote add origin https://github.com/thejaxco/proyecto-.git
+
+- Empujarlo:							git push --all origin
+
